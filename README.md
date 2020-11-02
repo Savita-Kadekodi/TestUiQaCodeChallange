@@ -22,7 +22,8 @@ copy the path shown in 'Location', open a new browser and paste it and hit enter
 
 Extent report will show the pass / fail results. Test report also shows each of the test case run with date and time
 
-Automation report section shows pie chart reports.
+Automation report section shows pie chart reports. I have added a file ('ExtentReport screenshots and info') 
+that has Extent report screenshots, instructions to run testNG runner and how to get the extent report.
 
 Tests can be run individually for each of the java class in 'src/test/java/com.hero.qa.testcases'. 
 Open the class by double clicking the class. Right click and click / Run As / TestNG Suite.
