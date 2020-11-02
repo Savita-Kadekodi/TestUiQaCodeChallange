@@ -1,8 +1,9 @@
 # TestUiQaCodeChallange
 
-I created a Selenium Maven project. 
+I have a created a Selenium Maven project 'testui1'. 
 
-In all of the test bases, please set your chromedriver.exe path. 
+src/main/java/com.hero.qa.Base has test bases, please set your chromedriver.exe path. 
+System.setProperty("webdriver.chrome.driver","*****Chrome dirver path*****");	
 
 The page object model includes 
 A. Page layer (found in src/main/java/com.hero.qa.pages)
@@ -17,14 +18,14 @@ Once the test runs, refresh the 'testui1' project.
  
 Expand 'test-output', right click on 'Extent.html' and select 'properties'
 
-copy the path shown in 'Location', open a new browser and paste it and click enter.
+copy the path shown in 'Location', open a new browser and paste it and hit enter.
 
 Extent report will show the pass / fail results. Test report also shows each of the test case run with date and time
 
 Automation report section shows pie chart reports.
 
 Tests can be run individually for each of the java class in 'src/test/java/com.hero.qa.testcases'. 
-Open the class by double clicking it. Right click and click / Run As / TestNG Suite.
+Open the class by double clicking the class. Right click and click / Run As / TestNG Suite.
 
 LoginPageTest.java uses data from config.properties file
 
