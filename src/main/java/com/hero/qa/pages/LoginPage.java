@@ -41,7 +41,7 @@ public class LoginPage extends TestBase {
 		return new LoginPage();
 	}
 	
-	public Secure login( String un, String Pwd) {		 
+	public Secure login(String un, String Pwd) {		 
 			
 		if(txtBoxUserName.isDisplayed()){
 		  System.out.println("Textbox username is displayed");
@@ -58,7 +58,7 @@ public class LoginPage extends TestBase {
 		 
 	 }
 	
-	public LoginPage usernameInvalid( String un, String Pwd) {
+	public LoginPage usernameInvalid(String un, String Pwd) {
 		 //Enter username
 		 txtBoxUserName.sendKeys(un);	 
 		 

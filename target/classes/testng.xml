@@ -13,6 +13,8 @@
 			     <class name="com.hero.qa.testcases.TablesTest"></class>
 			     <class name="com.hero.qa.testcases.WindowsTest"></class>
 			     <class name="com.hero.qa.testcases.DynamicControlsTest"></class>
+			     <class name="com.hero.qa.testcases.ExitIntentTest"></class>
+			     
 			  </classes>
 				  
 		</test>

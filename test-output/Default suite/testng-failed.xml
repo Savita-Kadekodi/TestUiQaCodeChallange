@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hero.qa.testcases.ExitIntentTest">
+      <class name="com.hero.qa.testcases.LoginPageTest">
         <methods>
-          <include name="verifyExitIntent"/>
           <include name="setUp"/>
+          <include name="UserNameInvalidMain"/>
         </methods>
-      </class> <!-- com.hero.qa.testcases.ExitIntentTest -->
+      </class> <!-- com.hero.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
