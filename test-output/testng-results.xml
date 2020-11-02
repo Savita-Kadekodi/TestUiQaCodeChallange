@@ -1,297 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test UI QA Code Challange" duration-ms="167168" started-at="2020-11-01T18:34:29 MST" finished-at="2020-11-01T18:37:16 MST">
+  <suite name="Default suite" duration-ms="10218" started-at="2020-11-01T21:18:17 MST" finished-at="2020-11-01T21:18:28 MST">
     <groups>
     </groups>
-    <test name="UI QA Code Challange Test cases" duration-ms="167168" started-at="2020-11-01T18:34:29 MST" finished-at="2020-11-01T18:37:16 MST">
-      <class name="com.hero.qa.testcases.WindowsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.WindowsTest@33f88ab]" name="setUp" is-config="true" duration-ms="4968" started-at="2020-11-01T18:36:56 MST" finished-at="2020-11-01T18:37:01 MST">
+    <test name="Default test" duration-ms="10218" started-at="2020-11-01T21:18:17 MST" finished-at="2020-11-01T21:18:28 MST">
+      <class name="com.hero.qa.testcases.ExitIntentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.ExitIntentTest@167fdd33]" name="setUp" is-config="true" duration-ms="8827" started-at="2020-11-01T21:18:17 MST" finished-at="2020-11-01T21:18:26 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyNewtabCreated()[pri:0, instance:com.hero.qa.testcases.WindowsTest@33f88ab]" name="VerifyNewtabCreated" duration-ms="202" started-at="2020-11-01T18:37:01 MST" finished-at="2020-11-01T18:37:01 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyNewtabCreated -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.WindowsTest@33f88ab]" name="tearDown" is-config="true" duration-ms="1179" started-at="2020-11-01T18:37:01 MST" finished-at="2020-11-01T18:37:02 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hero.qa.testcases.WindowsTest -->
-      <class name="com.hero.qa.testcases.TablesTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="setUp" is-config="true" duration-ms="5667" started-at="2020-11-01T18:36:43 MST" finished-at="2020-11-01T18:36:48 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sortByLastName()[pri:1, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="sortByLastName" duration-ms="743" started-at="2020-11-01T18:36:48 MST" finished-at="2020-11-01T18:36:49 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByLastName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-11-01T18:36:49 MST" finished-at="2020-11-01T18:36:50 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="setUp" is-config="true" duration-ms="4896" started-at="2020-11-01T18:36:50 MST" finished-at="2020-11-01T18:36:55 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sortByFirstName()[pri:2, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="sortByFirstName" duration-ms="772" started-at="2020-11-01T18:36:55 MST" finished-at="2020-11-01T18:36:55 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortByFirstName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.TablesTest@2833cc44]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-11-01T18:36:55 MST" finished-at="2020-11-01T18:36:56 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hero.qa.testcases.TablesTest -->
-      <class name="com.hero.qa.testcases.SecureTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.SecureTest@3712b94]" name="setUp" is-config="true" duration-ms="5226" started-at="2020-11-01T18:36:35 MST" finished-at="2020-11-01T18:36:40 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="saveContactWithNoValueAdded()[pri:0, instance:com.hero.qa.testcases.SecureTest@3712b94]" name="saveContactWithNoValueAdded" duration-ms="1530" started-at="2020-11-01T18:36:40 MST" finished-at="2020-11-01T18:36:42 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveContactWithNoValueAdded -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.SecureTest@3712b94]" name="tearDown" is-config="true" duration-ms="809" started-at="2020-11-01T18:36:42 MST" finished-at="2020-11-01T18:36:43 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hero.qa.testcases.SecureTest -->
-      <class name="com.hero.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="9049" started-at="2020-11-01T18:34:29 MST" finished-at="2020-11-01T18:34:38 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="loginTest" duration-ms="1411" started-at="2020-11-01T18:34:38 MST" finished-at="2020-11-01T18:34:39 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="760" started-at="2020-11-01T18:34:39 MST" finished-at="2020-11-01T18:34:40 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4912" started-at="2020-11-01T18:34:40 MST" finished-at="2020-11-01T18:34:45 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid1()[pri:2, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid1" duration-ms="954" started-at="2020-11-01T18:34:45 MST" finished-at="2020-11-01T18:34:46 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-11-01T18:34:46 MST" finished-at="2020-11-01T18:34:47 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5039" started-at="2020-11-01T18:34:47 MST" finished-at="2020-11-01T18:34:52 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid2()[pri:3, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid2" duration-ms="754" started-at="2020-11-01T18:34:52 MST" finished-at="2020-11-01T18:34:53 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="676" started-at="2020-11-01T18:34:53 MST" finished-at="2020-11-01T18:34:53 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5281" started-at="2020-11-01T18:34:53 MST" finished-at="2020-11-01T18:34:58 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid3()[pri:4, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid3" duration-ms="951" started-at="2020-11-01T18:34:58 MST" finished-at="2020-11-01T18:34:59 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="1218" started-at="2020-11-01T18:34:59 MST" finished-at="2020-11-01T18:35:01 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5200" started-at="2020-11-01T18:35:01 MST" finished-at="2020-11-01T18:35:06 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid4()[pri:5, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid4" duration-ms="1019" started-at="2020-11-01T18:35:06 MST" finished-at="2020-11-01T18:35:07 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-11-01T18:35:07 MST" finished-at="2020-11-01T18:35:08 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4980" started-at="2020-11-01T18:35:08 MST" finished-at="2020-11-01T18:35:13 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid5()[pri:6, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid5" duration-ms="894" started-at="2020-11-01T18:35:13 MST" finished-at="2020-11-01T18:35:14 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid5 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="677" started-at="2020-11-01T18:35:14 MST" finished-at="2020-11-01T18:35:14 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4947" started-at="2020-11-01T18:35:14 MST" finished-at="2020-11-01T18:35:19 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid6()[pri:7, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid6" duration-ms="720" started-at="2020-11-01T18:35:19 MST" finished-at="2020-11-01T18:35:20 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid6 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="671" started-at="2020-11-01T18:35:20 MST" finished-at="2020-11-01T18:35:21 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5053" started-at="2020-11-01T18:35:21 MST" finished-at="2020-11-01T18:35:26 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid7()[pri:8, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid7" duration-ms="702" started-at="2020-11-01T18:35:26 MST" finished-at="2020-11-01T18:35:26 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid7 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="692" started-at="2020-11-01T18:35:26 MST" finished-at="2020-11-01T18:35:27 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5080" started-at="2020-11-01T18:35:27 MST" finished-at="2020-11-01T18:35:32 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid8()[pri:9, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid8" duration-ms="755" started-at="2020-11-01T18:35:32 MST" finished-at="2020-11-01T18:35:33 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid8 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="687" started-at="2020-11-01T18:35:33 MST" finished-at="2020-11-01T18:35:34 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4856" started-at="2020-11-01T18:35:34 MST" finished-at="2020-11-01T18:35:38 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid9()[pri:10, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid9" duration-ms="891" started-at="2020-11-01T18:35:38 MST" finished-at="2020-11-01T18:35:39 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid9 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="681" started-at="2020-11-01T18:35:39 MST" finished-at="2020-11-01T18:35:40 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4890" started-at="2020-11-01T18:35:40 MST" finished-at="2020-11-01T18:35:45 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid10()[pri:11, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid10" duration-ms="732" started-at="2020-11-01T18:35:45 MST" finished-at="2020-11-01T18:35:46 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid10 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="725" started-at="2020-11-01T18:35:46 MST" finished-at="2020-11-01T18:35:46 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4778" started-at="2020-11-01T18:35:46 MST" finished-at="2020-11-01T18:35:51 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid11()[pri:12, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid11" duration-ms="725" started-at="2020-11-01T18:35:51 MST" finished-at="2020-11-01T18:35:52 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid11 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="677" started-at="2020-11-01T18:35:52 MST" finished-at="2020-11-01T18:35:52 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5714" started-at="2020-11-01T18:35:52 MST" finished-at="2020-11-01T18:35:58 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid12()[pri:13, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid12" duration-ms="833" started-at="2020-11-01T18:35:58 MST" finished-at="2020-11-01T18:35:59 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid12 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="1357" started-at="2020-11-01T18:35:59 MST" finished-at="2020-11-01T18:36:00 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4912" started-at="2020-11-01T18:36:00 MST" finished-at="2020-11-01T18:36:05 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid13()[pri:14, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid13" duration-ms="794" started-at="2020-11-01T18:36:05 MST" finished-at="2020-11-01T18:36:06 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid13 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="712" started-at="2020-11-01T18:36:06 MST" finished-at="2020-11-01T18:36:07 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5403" started-at="2020-11-01T18:36:07 MST" finished-at="2020-11-01T18:36:12 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid14()[pri:15, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid14" duration-ms="830" started-at="2020-11-01T18:36:12 MST" finished-at="2020-11-01T18:36:13 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid14 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="769" started-at="2020-11-01T18:36:13 MST" finished-at="2020-11-01T18:36:14 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5166" started-at="2020-11-01T18:36:14 MST" finished-at="2020-11-01T18:36:19 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid15()[pri:16, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid15" duration-ms="723" started-at="2020-11-01T18:36:19 MST" finished-at="2020-11-01T18:36:20 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid15 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-11-01T18:36:20 MST" finished-at="2020-11-01T18:36:20 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="5353" started-at="2020-11-01T18:36:20 MST" finished-at="2020-11-01T18:36:26 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid16()[pri:17, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid16" duration-ms="729" started-at="2020-11-01T18:36:26 MST" finished-at="2020-11-01T18:36:26 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid16 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="689" started-at="2020-11-01T18:36:26 MST" finished-at="2020-11-01T18:36:27 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="6212" started-at="2020-11-01T18:36:27 MST" finished-at="2020-11-01T18:36:33 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UserNameInvalid17()[pri:18, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="UserNameInvalid17" duration-ms="862" started-at="2020-11-01T18:36:33 MST" finished-at="2020-11-01T18:36:34 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameInvalid17 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.LoginPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="712" started-at="2020-11-01T18:36:34 MST" finished-at="2020-11-01T18:36:35 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hero.qa.testcases.LoginPageTest -->
-      <class name="com.hero.qa.testcases.DynamicControlsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hero.qa.testcases.DynamicControlsTest@27a8c74e]" name="setUp" is-config="true" duration-ms="5620" started-at="2020-11-01T18:37:02 MST" finished-at="2020-11-01T18:37:08 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyDynamicControls()[pri:1, instance:com.hero.qa.testcases.DynamicControlsTest@27a8c74e]" name="VerifyDynamicControls" duration-ms="7358" started-at="2020-11-01T18:37:08 MST" finished-at="2020-11-01T18:37:15 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDynamicControls -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hero.qa.testcases.DynamicControlsTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="735" started-at="2020-11-01T18:37:15 MST" finished-at="2020-11-01T18:37:16 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hero.qa.testcases.DynamicControlsTest -->
-    </test> <!-- UI QA Code Challange Test cases -->
-  </suite> <!-- Test UI QA Code Challange -->
+        <test-method status="FAIL" signature="verifyExitIntent()[pri:0, instance:com.hero.qa.testcases.ExitIntentTest@167fdd33]" name="verifyExitIntent" duration-ms="1311" started-at="2020-11-01T21:18:26 MST" finished-at="2020-11-01T21:18:28 MST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <p>...</p> is not clickable at point (677, 422). Other element would receive the click: <div class="modal">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VF09DEB', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Savita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b0437bb051f0a6b2ff28052a79ba71a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p>...</p> is not clickable at point (677, 422). Other element would receive the click: <div class="modal">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VF09DEB', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Savita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b0437bb051f0a6b2ff28052a79ba71a1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy8.click(Unknown Source)
+at com.hero.qa.pages.ExitIntent.testExitIntent(ExitIntent.java:36)
+at com.hero.qa.testcases.ExitIntentTest.verifyExitIntent(ExitIntentTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExitIntent -->
+      </class> <!-- com.hero.qa.testcases.ExitIntentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

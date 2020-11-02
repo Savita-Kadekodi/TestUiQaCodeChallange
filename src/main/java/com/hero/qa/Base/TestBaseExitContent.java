@@ -32,6 +32,9 @@ public class TestBaseExitContent {
 		
 	}
 	
-	
+	public static void waitForObjectToVisible(WebElement element) {
+		new WebDriverWait(driver, 40).until(ExpectedConditions.visibilityOf(element));
+		
+	}
 
 }

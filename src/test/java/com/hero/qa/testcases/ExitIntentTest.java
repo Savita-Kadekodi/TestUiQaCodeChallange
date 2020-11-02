@@ -3,7 +3,6 @@ package com.hero.qa.testcases;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import com.hero.qa.Base.TestBaseExitContent;
 import com.hero.qa.pages.ExitIntent;
 
@@ -30,10 +29,10 @@ public class ExitIntentTest extends TestBaseExitContent {
 		ExitIntent = ExitIntent.testExitIntent();
 	}
 	
-	//@AfterMethod
-	public void tearDown() {		
-		driver.quit();
-	}
+//	@AfterMethod
+//	public void tearDown() {		
+//		driver.quit();
+//	}
 
 
 }

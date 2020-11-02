@@ -1,24 +1,40 @@
 package com.hero.qa.pages;
+import java.awt.Robot;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import com.hero.qa.Base.TestBaseExitContent;
 
 public class ExitIntent extends TestBaseExitContent{
 	
+	@FindBy(xpath=".//*[@id='ouibounce-modal']/div[2]/div[3]/p")
+	WebElement OutBoundModel;
+	
+	//+++++++++++++++++++++
+	public ExitIntent() {
+		
+		 PageFactory.initElements(driver, this);
+	}
+	
+	//++++++++++++++++++++++++++
 	
 	public ExitIntent testExitIntent() {
 		
-		//Switch to Alert pop up 
-		
-		 WebElement e = driver.findElement(By.cssSelector("h3"));
-	        Actions action = new Actions(driver);
-	        action.moveToElement(e).moveByOffset(600,-1).build().perform();
-	        driver.findElement(By.xpath(".//*[@id='ouibounce-modal']/div[2]/div[3]/p")).click();
-	    			
+		Robot robot;
+		try {
+			robot = new Robot();
+	        robot.mouseMove(600,0);
+	        
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		 
+		OutBoundModel.click();
+        waitForObjectToVisible(OutBoundModel);	              
+         
 		return new ExitIntent();
 	}
 	
