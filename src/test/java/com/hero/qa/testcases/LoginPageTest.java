@@ -23,10 +23,11 @@ public class LoginPageTest extends TestBase {
 		LoginPage = new LoginPage();		
 	}
 	
+		
 	@Test
-	public void UserNameInvalidMain() {
-		for (int i = 1; i <= 18; i++) {
-			LoginPage.usernameInvalid(prop.getProperty("username" + i),prop.getProperty("password" + i));	
+	public void validateLogin() {
+		for (int i = 1; i <= 21; i++) {
+			LoginPage.loginTest(prop.getProperty("username" + i),prop.getProperty("password" + i));	
 		}
 	}
 	

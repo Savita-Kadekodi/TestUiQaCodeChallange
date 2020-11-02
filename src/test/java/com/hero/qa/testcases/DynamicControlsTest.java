@@ -26,6 +26,7 @@ public class DynamicControlsTest extends TestBase1 {
 			DynamicControls = DynamicControls.verifyinputfieldEnable();
 		}	
 	
+		
 		@AfterMethod	
 		public void tearDown() {
 			driver.quit();

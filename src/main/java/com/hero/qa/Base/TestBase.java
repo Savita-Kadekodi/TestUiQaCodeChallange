@@ -17,18 +17,17 @@ public class TestBase {
 	public static Properties prop;
 	
 	
-	public TestBase(){			
+	public TestBase(){
+		
 		
 		try{						
 			prop = new Properties();
 			
 			FileInputStream ip = new FileInputStream("C:\\Users\\Savita\\eclipse-workspace\\testui1\\src\\main\\java\\com\\hero\\qa\\config\\config.properties");
-			//Load the values from config file
+			//Load the values from the config file
 			prop.load(ip);				
 		}
-			catch(FileNotFoundException e){
-			e.printStackTrace();
-		}	catch(IOException e){
+		catch (Exception e) {
 			e.printStackTrace();
 		}
 			

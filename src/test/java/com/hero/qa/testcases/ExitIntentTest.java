@@ -29,10 +29,10 @@ public class ExitIntentTest extends TestBaseExitContent {
 		ExitIntent = ExitIntent.testExitIntent();
 	}
 	
-//	@AfterMethod
-//	public void tearDown() {		
-//		driver.quit();
-//	}
+	@AfterMethod
+	public void tearDown() {		
+		driver.quit();
+	}
 
 
 }

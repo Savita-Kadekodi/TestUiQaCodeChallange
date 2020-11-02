@@ -27,9 +27,10 @@ public class SecureTest extends TestBase{
 		 
 	}
 	
+	
 	@Test
 	public void saveContactWithNoValueAdded() {
-		Secure=LoginPage.login(prop.getProperty("username"),prop.getProperty("password"));
+		Secure=LoginPage.login(prop.getProperty("username21"),prop.getProperty("password21"));
 		Secure = Secure.verifySuccessMessage(); 
 		LoginPage = Secure.Logout();
 		

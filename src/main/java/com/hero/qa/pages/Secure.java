@@ -3,6 +3,7 @@ package com.hero.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.hero.qa.Base.TestBase;
 
@@ -41,10 +42,13 @@ public class Secure extends TestBase {
 		return new Secure();
 	}
 	
+	
 	public LoginPage Logout() {
 		
 		if(btnLogOut.isDisplayed()) {
 			btnLogOut.click();
+			String URL = driver.getCurrentUrl();
+			Assert.assertEquals(URL, "https://the-internet.herokuapp.com/login" );
 		}		
 		
 		return new LoginPage();

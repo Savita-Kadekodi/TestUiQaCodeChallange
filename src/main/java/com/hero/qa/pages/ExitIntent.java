@@ -32,6 +32,7 @@ public class ExitIntent extends TestBaseExitContent{
 			e.printStackTrace();
 		}
 		 
+		waitForObjectToVisible(OutBoundModel);
 		OutBoundModel.click();              
          
 		return new ExitIntent();

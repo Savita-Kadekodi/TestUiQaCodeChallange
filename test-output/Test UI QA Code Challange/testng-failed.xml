@@ -12,6 +12,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.hero.qa.testcases.ExitIntentTest -->
+      <class name="com.hero.qa.testcases.SecureTest">
+        <methods>
+          <include name="saveContactWithNoValueAdded"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hero.qa.testcases.SecureTest -->
     </classes>
   </test> <!-- UI QA Code Challange Test cases(failed) -->
 </suite> <!-- Failed suite [Test UI QA Code Challange] -->

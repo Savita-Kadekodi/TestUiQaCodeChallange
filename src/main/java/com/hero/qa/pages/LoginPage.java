@@ -31,15 +31,7 @@ public class LoginPage extends TestBase {
 	
 	//Verify to make sure username textbox is displayed
 	
-	public LoginPage ValidateUserNameTextboxDisplay() {
-		
-		if(txtBoxUserName.isDisplayed()){
-			System.out.println("Textbox username is displayed");
-			
-		}else System.out.println("Error: Textbox username is not displayed");
-		
-		return new LoginPage();
-	}
+	
 	
 	public Secure login(String un, String Pwd) {		 
 			
@@ -58,7 +50,7 @@ public class LoginPage extends TestBase {
 		 
 	 }
 	
-	public LoginPage usernameInvalid(String un, String Pwd) {
+	public LoginPage loginTest(String un, String Pwd) {
 		 //Enter username
 		 txtBoxUserName.sendKeys(un);	 
 		 
